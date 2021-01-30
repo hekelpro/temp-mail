@@ -25,14 +25,17 @@ class Menu:
 		pilih = input("\x1b[1;97m[\x1b[1;92m+\x1b[1;97m] PILIH:\x1b[1;92m ")
 		while pilih == "":
 			pilih = input("\x1b[1;97m[\x1b[1;92m+\x1b[1;97m] PILIH:\x1b[1;92m ")
-		if pilih=="01" or pilih=="1":
+
+		if pilih.isdigit():
+			pilih = int(pilih)
+		if pilih==1:
 			execution("".join(random.choice(string.ascii_letters) for x in range(10)), random.choice(list_mail))
-		elif pilih=="02" or pilih=="2":
+		elif pilih==2:
 			custom()
-		elif pilih=="03" or pilih=="3":
+		elif pilih==3:
 			clear()
 			about()
-		elif pilih=="00" or pilih=="0":
+		elif pilih==0:
 			exit("\x1b[1;97m[\x1b[1;91m!\x1b[1;97m] PROGRAM BERHENTI ..\n")
 		else:
 			exit("\x1b[1;97m[\x1b[1;91m!\x1b[1;97m] TIDAK ADA MENU YANG COCOK ..\n")
