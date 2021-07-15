@@ -20,7 +20,9 @@ python temp.py
 + Support Message with emote, html
 
 # Mau Melihat Hasilnya?
-![img](https://github.com/hekelpro/temp-mail/blob/main/bukti.JPG)
+![img](https://github.com/hekelpro/temp-mail/blob/main/bukti.jpg)
 
-# NOTE: SELAIN FILE IMAGE/GAMBAR TIDAK TERBACA
-
+# Thanks to
+```
+All Member XiuzCode
+```
